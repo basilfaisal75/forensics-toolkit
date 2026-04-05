@@ -4,6 +4,16 @@ A Python-based forensic investigation toolkit that simulates a real-world digita
 
 ---
 
+## Screenshots
+
+> Terminal output during investigation
+![Terminal](screenshots/terminal.png)
+
+> Generated PDF report
+![Report](screenshots/report.png)
+
+---
+
 ## What It Does
 
 Given a directory of evidence files, the toolkit automatically:
@@ -96,7 +106,7 @@ The toolkit detects all of this automatically and compiles it into an investigat
 [ALERT] USB device connected: SanDisk USB 3.0 64GB
 [ALERT] Large data transfer (rsync): sent 4,521,984,102 bytes
 [ALERT] Secure file deletion (shred): employee_records_export.csv
-[SUSPICIOUS] office_photo.png — hidden text: meeting_location=warehouse_district;contact=shadow99
+[SUSPICIOUS] office_photo.png - hidden text: meeting_location=warehouse_district;contact=shadow99
 ```
 
 ---
@@ -104,7 +114,7 @@ The toolkit detects all of this automatically and compiles it into an investigat
 ## Requirements
 
 - Python 3.11+
-- `fpdf2` (for PDF reports) — `pip3 install fpdf2`
+- `fpdf2` (for PDF reports) - `pip3 install fpdf2`
 
 ---
 
