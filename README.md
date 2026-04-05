@@ -4,16 +4,6 @@ A Python-based forensic investigation toolkit that simulates a real-world digita
 
 ---
 
-## Screenshots
-
-> Terminal output during investigation
-![Terminal](screenshots/terminal.png)
-
-> Generated PDF report
-![Report](screenshots/report.png)
-
----
-
 ## What It Does
 
 Given a directory of evidence files, the toolkit automatically:
