@@ -1,0 +1,21 @@
+Mar 10 07:45:01 CORP-PC-042 sshd[1234]: Accepted password for jsmith from 192.168.1.105 port 54321
+Mar 10 07:45:03 CORP-PC-042 sshd[1234]: pam_unix(sshd:session): session opened for user jsmith
+Mar 10 08:00:15 CORP-PC-042 sudo[2201]: jsmith : TTY=pts/0 ; PWD=/home/jsmith ; USER=root ; COMMAND=/bin/bash
+Mar 10 08:02:44 CORP-PC-042 kernel: USB device connected: SanDisk USB 3.0 [sdb] 64GB
+Mar 10 08:03:01 CORP-PC-042 kernel: EXT4-fs (sdb1): mounted filesystem
+Mar 10 08:05:33 CORP-PC-042 rsync[2890]: building file list ... done
+Mar 10 08:05:33 CORP-PC-042 rsync[2890]: sent 4,521,984,102 bytes  received 26 bytes
+Mar 10 08:05:33 CORP-PC-042 rsync[2890]: total size is 4,521,984,000  speedup is 1.00
+Mar 10 08:12:09 CORP-PC-042 kernel: USB device removed: SanDisk USB 3.0 [sdb]
+Mar 10 08:45:22 CORP-PC-042 cron[3100]: (jsmith) CMD (/usr/bin/python3 /home/jsmith/.hidden/cleanup.py)
+Mar 10 09:01:17 CORP-PC-042 syslog: shred[3401]: /home/jsmith/Documents/Q1_financials_backup.xlsx - 3 passes complete
+Mar 10 09:01:44 CORP-PC-042 syslog: shred[3401]: /home/jsmith/Documents/employee_records_export.csv - 3 passes complete
+Mar 10 09:02:01 CORP-PC-042 syslog: shred[3401]: /home/jsmith/Downloads/confidential_contracts.zip - 3 passes complete
+Mar 10 10:15:05 CORP-PC-042 sshd[1234]: Disconnected from user jsmith
+Mar 11 07:50:00 CORP-PC-042 sshd[4412]: Accepted password for jsmith from 10.0.0.88 port 22199
+Mar 11 07:50:02 CORP-PC-042 sshd[4412]: pam_unix(sshd:session): session opened for user jsmith
+Mar 11 08:00:31 CORP-PC-042 sudo[5001]: jsmith : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/bin/rm -rf /var/log/auth.log
+Mar 11 08:01:02 CORP-PC-042 sudo[5002]: jsmith : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/bin/rm -rf /var/log/syslog
+Mar 11 08:15:44 CORP-PC-042 kernel: USB device connected: SanDisk USB 3.0 [sdb] 64GB
+Mar 11 09:30:11 CORP-PC-042 kernel: USB device removed: SanDisk USB 3.0 [sdb]
+Mar 11 11:05:22 CORP-PC-042 sshd[4412]: Disconnected from user jsmith
