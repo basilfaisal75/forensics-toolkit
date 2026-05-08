@@ -1,8 +1,8 @@
 # Digital Forensics Investigation Toolkit
 
-I built this after graduating from my Cyber Security and Digital Forensics degree as a way to put everything I'd learned into something practical. I've always been passionate about forensics and wanted to build a tool that actually reflects how a real investigation works — not just a script that runs through files, but something that thinks like an investigator.
+I built this after graduating from my Cyber Security and Digital Forensics degree as a way to put everything I'd learned into something practical. I've always been passionate about forensics and wanted to build a tool that actually reflects how a real investigation works  not just a script that runs through files, but something that thinks like an investigator.
 
-The idea was simple: given a folder of evidence, the toolkit should do what a forensic analyst does — verify integrity, dig through logs, search for suspicious content, look for hidden data in images, piece together a timeline, and write it all up in a report.
+The idea was simple: given a folder of evidence, the toolkit should do what a forensic analyst does verify integrity, dig through logs, search for suspicious content, look for hidden data in images, piece together a timeline, and write it all up in a report.
 
 ---
 
